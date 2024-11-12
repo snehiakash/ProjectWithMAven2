@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+<class name="com.tut.entity.Product" table="product">
+<id name="pid" column="pid"></id>
+<property name="pname" column="pname"></property>
+<property name="qty" column="qty"></property>
+<property name="price" column="price"></property>
+
+</class>
+
+
+
+</hibernate-mapping>
